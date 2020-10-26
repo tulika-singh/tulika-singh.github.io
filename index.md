@@ -13,8 +13,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
     </head>
     <body class="is-loading">
-
-        <div id="preloader">
+         <div id="preloader">
             <div class="txt">
                 <img class="loader-img" src="images/loader_cat.svg" alt="loading image"/> 
                 <p class="txt-perc">0%</p>
@@ -22,7 +21,7 @@
             </div>
         </div>
 
-        <header>
+ <header>
             <div class="container">
                 <div class="fixed-top top-nav-projects nav-down">
                     <ul class="">
@@ -37,7 +36,7 @@
             </div>
         </header>
 
-        <!-- cover page -->
+ <!-- cover page -->
         <main>
             <section class="section-articles" id="section-zero">
                 <div class="container">
@@ -46,15 +45,15 @@
                         <p class = "center-align" id="intro-p">I'm a product designer focused on using empathy to create impact in our communities.</p>
                     </center>
       
-                    <div id="lottie">
+ <div id="lottie">
                         <!-- <img class="full-screen" src = "images/workspace.png" /> -->
                     </div>
                     
-                    <div id="welcome-small">
+ <div id="welcome-small">
                         <img src="images/workspace-small.png" alt="welcome illustration small">
                     </div>
 
-                    <div class="arrow-container center-aligned">
+  <div class="arrow-container center-aligned">
                             <a id="scroll-arrow" href="#section-one">
                                 <img src="images/arrow-down.png" width="16" alt="arrow down"/>
                             </a>
@@ -63,7 +62,7 @@
             </section>
             
 
-        <!-- sections -->
+ <!-- sections -->
             <!-- <div class="side-nav">
                 <ul>
                     <li>COVER</li>
@@ -157,7 +156,7 @@
                     </section>
                 </main>
 
-                    <footer>
+  <footer>
                         <div class="container">
                             <center>
                                 <p class="caption-text">
@@ -171,7 +170,7 @@
                         </div>
                     </footer>
 
-        <script src="js/bodymovin.js" type="text/javascript"></script>
+ <script src="js/bodymovin.js" type="text/javascript"></script>
         <script src="js/lottie.js" type="text/javascript"></script>
         <script src="js/jquery-3.3.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
