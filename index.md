@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Shuli-liu.github.io by shuli-liu</title>
+    <title>Tulika Singh</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -26,13 +26,13 @@
     <div class="wrapper">
       <section>
         <div id="title">
-          <h1>Shuli-liu.github.io</h1>
-          <p>Shuli&#39;s public portfolio </p>
+          <h1></h1>
+          <p> Tulika&#39;s public portfolio </p>
           <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/shuli-liu">shuli-liu</a></span>
+          <span class="credits left">Project maintained by <a href="https://github.com/tulika-singh">Tulika Singh</a></span>
           <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
-        <p>This page is under construction.  </p>
+        
       </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
