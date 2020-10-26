@@ -1,0 +1,172 @@
+@import basic
+
+#lottie 
+  margin: 8vh 0
+
+.nav-arrow
+  @extend %nav-small-text-style
+ 
+.project-images 
+  width: 100%
+  padding: 2vw
+
+.project-introductions
+  margin: 8vh 0
+
+.project-intro-title, 
+.project-intro-desc
+  margin-bottom: 36px
+
+.full-screen
+  width: 100%
+
+.section-projects
+  padding: 16vh 8vw
+
+#section-zero 
+  padding-top: 8vh
+  height: 100vh
+
+#section-one
+  background-color: $light-violet
+
+#section-two
+  background-color: $light-green
+
+#section-three
+  background-color: $light-orange
+
+#section-four
+  background-color: $light-purple 
+
+#section-five
+  background-color: $light-blue
+
+.bg-number
+  font-size: 220px
+  font-family: "Open Sans"
+  font-weight: 700 
+  position: absolute
+  left: -160px
+  top: 16px
+  z-index: -1
+
+#bg-number-1
+    color: $violet
+
+#bg-number-2
+    color: $green
+
+#bg-number-3
+    color: $orange
+
+#bg-number-4
+    color: $purple
+
+#bg-number-5
+    color: $blue
+
+// .side-nav
+//   position: fixed
+//   left: 0
+//   top: 0
+//   width: 100vh
+//   height: 110px
+//   transform-origin: top
+//   transform: rotateZ(-90deg) translate3d(-50vh, -50vh, 0)
+//   display: flex
+//   align-items: center
+//   justify-content: center 
+// .side-nav ul 
+//   @extend %nav-small-text-style
+//   list-style: none
+//   text-transform: uppercase
+// .side-nav ul li
+//   display: inline-block
+//   margin: 16px
+//   opacity: .7
+#welcome-small 
+  visibility: hidden 
+
+#welcome-small img
+  width: 100%
+
+
+.arrow-container
+  position: absolute 
+  left: 49vw
+  bottom: 8vh
+
+#scroll-arrow
+  animation-name: scroll-arrow-animation
+  position: absolute 
+  animation-duration: 1s
+  animation-timing-function: ease-in-out
+  animation-iteration-count: infinite 
+  animation-direction: alternate 
+  // animation-delay: 1s
+@keyframes scroll-arrow-animation
+  0% 
+    top: 0px
+  100% 
+    top: 16px 
+
+.position-fixed
+  position: fixed 
+
+.float-right
+  float: right !important 
+
+.float-left 
+  float: left !important 
+
+footer 
+  padding: 8vh 4vw
+
+.container-fluid 
+  padding-left: 0
+  padding-right: 0
+
+#index-uber
+  margin-top: 16vh
+  
+// media queries
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) 
+  .side-nav
+    visibility: hidden
+  
+  .project-nav-right
+    text-align: left
+    margin-right: auto
+
+  .section-articles 
+    padding: 4vh 4vw 
+  
+  #lottie 
+    display: none 
+  
+  #welcome-small 
+    visibility: visible 
+    padding-top: 5vh
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) 
+  .side-nav
+    visibility: hidden
+
+  .project-nav-right
+    text-align: left
+    margin-right: auto
+  
+  .section-articles 
+    padding: 4vh 4vw 
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) 
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) 
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) 
